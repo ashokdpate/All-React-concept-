@@ -10,7 +10,7 @@ import LoginPage from './Components/ecommerce/login/LoginPage';
 import SignUpPage from './Components/ecommerce/SignUp/SignUpPage';
 import NavBar from './Components/ecommerce/nav/NavBar';
 import { useSelector } from 'react-redux';
-
+import GitHubHome from "./Components/GithubApplication/GithubHome"
 function App() {
   var[showImage,setShowImage]=useState(true);
    let isLoggedIn= useSelector((storedata)=>{
@@ -52,7 +52,7 @@ function App() {
 
     {/* <Name/> */}
       {/* <A/> */}
-      {/* <GithubHome/> */}
+      <GitHubHome/>
       {/* <Routes>
         <Route path='/' element={<Home/>}/>
 

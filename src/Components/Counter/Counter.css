@@ -1,0 +1,11 @@
+.counter{
+    background-color: aliceblue;
+    width: 500px;
+    box-shadow: 0 0 10px   red;
+    padding: 50px;
+    margin: 50px auto;
+}
+.counter p{
+    color: green;
+    font-weight: bold;
+}

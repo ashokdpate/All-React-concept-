@@ -14,7 +14,7 @@ import { useSelector } from 'react-redux';
 function App() {
   var[showImage,setShowImage]=useState(true);
    let isLoggedIn= useSelector((storedata)=>{
-    return storedata.isLoggedIn;
+    return storedata.loginReducer.isLoggedIn;
    });
   return (
     <div className="App">
